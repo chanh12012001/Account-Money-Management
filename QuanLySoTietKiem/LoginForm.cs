@@ -24,6 +24,11 @@ namespace QuanLySoTietKiem
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
+            DangNhap();
+        }
+
+        private void DangNhap()
+        {
             string chuoiKetNoi = @"Data Source=DESKTOP-V01H6IU\SQLEXPRESS;Initial Catalog=QuanLySoTietKiem;Integrated Security=True";
             using (SqlConnection con = new SqlConnection(chuoiKetNoi))
             {
