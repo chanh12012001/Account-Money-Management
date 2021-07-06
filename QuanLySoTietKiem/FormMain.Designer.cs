@@ -42,11 +42,11 @@ namespace QuanLySoTietKiem
             this.btnLapSoTietKiem = new Guna.UI.WinForms.GunaButton();
             this.picRestaurant = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.container = new Guna.UI.WinForms.GunaShadowPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnLogout = new Guna.UI.WinForms.GunaButton();
+            this.container = new Guna.UI.WinForms.GunaShadowPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRestaurant)).BeginInit();
             this.panel1.SuspendLayout();
@@ -266,58 +266,13 @@ namespace QuanLySoTietKiem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(252, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(711, 25);
             this.panel1.TabIndex = 39;
-            // 
-            // container
-            // 
-            this.container.BackColor = System.Drawing.Color.Transparent;
-            this.container.BaseColor = System.Drawing.Color.Linen;
-            this.container.Controls.Add(this.label3);
-            this.container.Controls.Add(this.pictureBox1);
-            this.container.Controls.Add(this.pictureBox2);
-            this.container.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.container.Location = new System.Drawing.Point(252, 25);
-            this.container.Name = "container";
-            this.container.ShadowColor = System.Drawing.Color.Black;
-            this.container.Size = new System.Drawing.Size(711, 600);
-            this.container.TabIndex = 40;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(116, 295);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(460, 265);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label3.Location = new System.Drawing.Point(66, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(579, 62);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "CHÀO MỪNG BẠN ĐẾN VỚI HỆ THỐNG \r\n             QUẢN LÝ SỔ TIẾT KIỆM";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(120, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(452, 321);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
             // 
             // btnLogout
             // 
@@ -342,6 +297,51 @@ namespace QuanLySoTietKiem
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Đăng xuất";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // container
+            // 
+            this.container.BackColor = System.Drawing.Color.Transparent;
+            this.container.BaseColor = System.Drawing.Color.Linen;
+            this.container.Controls.Add(this.label3);
+            this.container.Controls.Add(this.pictureBox1);
+            this.container.Controls.Add(this.pictureBox2);
+            this.container.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.container.Location = new System.Drawing.Point(252, 25);
+            this.container.Name = "container";
+            this.container.ShadowColor = System.Drawing.Color.Black;
+            this.container.Size = new System.Drawing.Size(711, 600);
+            this.container.TabIndex = 40;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Georgia", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label3.Location = new System.Drawing.Point(66, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(579, 62);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "CHÀO MỪNG BẠN ĐẾN VỚI HỆ THỐNG \r\n             QUẢN LÝ SỔ TIẾT KIỆM";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(116, 295);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(460, 265);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(120, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(452, 321);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
             // 
             // FormMain
             // 

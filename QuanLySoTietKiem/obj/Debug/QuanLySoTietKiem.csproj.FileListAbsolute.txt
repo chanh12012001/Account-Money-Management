@@ -22,3 +22,10 @@ F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\obj\Debug\Q
 F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\obj\Debug\QuanLySoTietKiem.FormBaoCaoThang.resources
 F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\obj\Debug\QuanLySoTietKiem.FormThayDoiQuyDinh.resources
 F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\obj\Debug\QuanLySoTietKiem.FormThongTin.resources
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\cccc.dll
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\sss.dll
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\daos.dll
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\cccc.pdb
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\sss.pdb
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\daos.pdb
+F:\UIT\NhapMonCongNghePhanMem\DoAn\QuanLySoTietKiem\QuanLySoTietKiem\bin\Debug\Bunifu_UI_v1.52.dll

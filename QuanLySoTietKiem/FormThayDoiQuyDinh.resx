@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gunaButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnThayDoiTienGuiToiThieu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAASlJREFUSEvl
         k7FKA0EURRcEBSV1IMQv0C6NtioBsRDSWvgLQSJWgZRW5j/8AxGsLCIROxHJVyhWgtmcN7mLm3GzbnbS
@@ -129,7 +129,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="gunaButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnThayDoiTienGuiThemToiThieu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAASlJREFUSEvl
         k7FKA0EURRcEBSV1IMQv0C6NtioBsRDSWvgLQSJWgZRW5j/8AxGsLCIROxHJVyhWgtmcN7mLm3GzbnbS
@@ -140,7 +140,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="gunaButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSuaLoaiTietKiem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAASlJREFUSEvl
         k7FKA0EURRcEBSV1IMQv0C6NtioBsRDSWvgLQSJWgZRW5j/8AxGsLCIROxHJVyhWgtmcN7mLm3GzbnbS
@@ -151,7 +151,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="gunaButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnXoaLoaiTietKiem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVhJREFUSEvt
         lM8uA1EYR8dCVewlIqws2KkXskNSERL1EH2VIhJ7KxFBJCy8goQQZUFsxvnu/d0Y7a1OZyaxcZKT3H7/
@@ -162,7 +162,7 @@
         SNDU9L2OYYe8obb80GSPcPHHNA80lnvR8sCA7KfiQ/Z8KpLkC0MkSQqfs0nVAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="gunaButton5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnThemLoaiTietKiem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAg9JREFUSEvt
         lbFLHFEQxq9LIUZJNKJoZ5MgBFKYRkQthGgniGBho1jnL1AIBJGQwlosBbEVQQkB6yCCmCpdUEELEU0k
@@ -174,6 +174,17 @@
         TpHn3P4fNNuQeeQvEuICmUMa6H+QZhYdBlhmmeWyCi+RFSTvhFlec9+ulWl0KGCZZedmcQK50lb1NHJv
         8m3WpwMDYC152c+k0Y0UPanwlAOTb7MePUsArPWaopxLY9mOC9PFgbVdanz8tOPCTHFwbX8ufFzacWG2
         ODjvdupBkpf3hvDtVAsYdH8PkKJg4P09MouCwcmXhDxoJIGXRKn0D58R4Gd2V/PsAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnThayTGGuiToiThieu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAASlJREFUSEvl
+        k7FKA0EURRcEBSV1IMQv0C6NtioBsRDSWvgLQSJWgZRW5j/8AxGsLCIROxHJVyhWgtmcN7mLm3GzbnbS
+        5cBpZu67D5bZaLWJ47iGL9jR0fKgtIojTGjrKhzKKjh0tb+M8VyR8lCygQ/WmME3HitaDgr6rmo+H1hX
+        fHEYPsArvEcfO7/ATcXnQ2gXO3jtq/sezuAGi0C2hfY9M1EmaMH7dCQbZYIW2JNL84T72DCVCVrg09P5
+        kWziANOM3XARNJAmWZDHmxsuggbS/LfAHsSpGy7CdGaGZIG9c9827rjBPAhtYRftrfs8op0fKr44DG/j
+        J+Zxo3g5KNjDL1f1l1tcU7Q8lJyg/xff4boi4VB2hj/WDM9Y0dXyoPQSX7Gmo5UkiiZHXsqd8MGY2AAA
+        AABJRU5ErkJggg==
 </value>
   </data>
 </root>
