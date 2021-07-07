@@ -289,5 +289,10 @@ namespace QuanLySoTietKiem
             }
             MessageBox.Show("Cập nhật thất bại");
         }
+
+        private void txtMaLoaiTietKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

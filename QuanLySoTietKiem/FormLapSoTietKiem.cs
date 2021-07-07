@@ -273,7 +273,12 @@ namespace QuanLySoTietKiem
                 return;
             }
             MessageBox.Show("Thêm thất bại");
-        }     
+        }
+
+        private void cbLoaiTietKiem_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
         //------------------------------ Mở sổ tiết kiệm ----------------------------------
 
     }

@@ -16,3 +16,12 @@ F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DAO\obj\Debug\DAO.csproj.CoreComp
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DAO\obj\Debug\DAO.csproj.CopyComplete
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DAO\obj\Debug\DAO.dll
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DAO\obj\Debug\DAO.pdb
+D:\NMCNPM\Account-Money-Management-master\DAO\bin\Debug\DAO.dll
+D:\NMCNPM\Account-Money-Management-master\DAO\bin\Debug\DAO.pdb
+D:\NMCNPM\Account-Money-Management-master\DAO\bin\Debug\cccc.dll
+D:\NMCNPM\Account-Money-Management-master\DAO\bin\Debug\cccc.pdb
+D:\NMCNPM\Account-Money-Management-master\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\NMCNPM\Account-Money-Management-master\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\NMCNPM\Account-Money-Management-master\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\NMCNPM\Account-Money-Management-master\DAO\obj\Debug\DAO.dll
+D:\NMCNPM\Account-Money-Management-master\DAO\obj\Debug\DAO.pdb
