@@ -46,8 +46,13 @@ namespace QuanLySoTietKiem
 
             if (danhSachPhieuRutTien == null)
             {
-                return;
+                //return;
+                danhSachPhieuRutTien = new List<PhieuRutTien_DTO>();
+
             }
+            dgvDanhSachPhieuRutTien.DataSource = danhSachPhieuRutTien;
+
+            txtMaPhieuRut.Text = XacDinhMaPhieuRut();
 
             dgvDanhSachPhieuRutTien.Columns["MaPhieuRut"].HeaderText = "Mã Phiếu Rút";
             dgvDanhSachPhieuRutTien.Columns["MaSoTietKiem"].HeaderText = "Mã Sổ Tiết Kiệm";
@@ -156,9 +161,13 @@ namespace QuanLySoTietKiem
                 MessageBox.Show("Vui Lòng Nhập Đầy Đủ Thông Tin ...");
                 return;
             }
+
+            LoaiTietKiem_DTO ltk = LoaiTietKiem_DAO.LayLoaiTietKiem(cbMaSoTietKiem.Text);
+
             PhieuRutTien_DTO phieuRutTien = new PhieuRutTien_DTO();
             BaoCaoNgay_DTO baoCaoNgay = new BaoCaoNgay_DTO();
             BaoCaoThang_DTO baoCaoThang = new BaoCaoThang_DTO();
+
 
             string str = txtMaPhieuRut.Text;
 
@@ -179,12 +188,27 @@ namespace QuanLySoTietKiem
             phieuRutTien.SoTienRut = int.Parse(txtSoTienRut.Text);
             phieuRutTien.NgayRut = DateTime.ParseExact(dtpNgayRut.Text, "dd-MM-yyyy", new CultureInfo("en-CA"));
 
-            DateTime toDay = DateTime.Today;
-            TimeSpan time = toDay - SoTietKiem_DAO.LayNgayMoSoTietKiem(phieuRutTien.MaSoTietKiem);
-            if (time.Days < ThamSo_DAO.LayThoiGianGuiToiThieu())
+
+            //kiểm tra loại tiết kiệm và xét quy định 3
+            if (ltk.MaLoaiTietKiem != "LTK001")
             {
-                MessageBox.Show("Chỉ được rút sau khi mở sổ ít nhất " + ThamSo_DAO.LayThoiGianGuiToiThieu() + " ngày");
-                return;
+                TimeSpan ts = DateTime.Today - SoTietKiem_DAO.LayNgayMoSoTietKiem(phieuRutTien.MaSoTietKiem);
+                if (ts.Days / 30 < ltk.KyHan)
+                {
+                    MessageBox.Show("Chỉ được rút khi quá kỳ hạn");
+                    return;
+                }
+            }
+            else
+            {
+
+                DateTime toDay = DateTime.Today;
+                TimeSpan time = toDay - SoTietKiem_DAO.LayNgayMoSoTietKiem(phieuRutTien.MaSoTietKiem);
+                if (time.Days < ThamSo_DAO.LayThoiGianGuiToiThieu())
+                {
+                    MessageBox.Show("Chỉ được rút sau khi mở sổ ít nhất " + ThamSo_DAO.LayThoiGianGuiToiThieu() + " ngày");
+                    return;
+                }
             }
 
             baoCaoNgay.MaChiTietNgay = XacDinhMaPhieuRut() + "1";
@@ -197,16 +221,20 @@ namespace QuanLySoTietKiem
             baoCaoThang.MaSoTietKiem = phieuRutTien.MaSoTietKiem;
 
             int sodu = SoTietKiem_DAO.LaySoDu(phieuRutTien.MaSoTietKiem);
+            //
+            if (ltk.MaLoaiTietKiem != "LTK001") phieuRutTien.SoTienRut = sodu;
+            //
             if (phieuRutTien.SoTienRut > sodu)
             {
                 MessageBox.Show("Số dư không đủ");
                 return;
-            }    
+            }
 
             if (phieuRutTien.SoTienRut == sodu)
             {
                 PhieuRutTien_BUS.CapNhatTrangThaiSo(phieuRutTien);
                 BaoCaoThang_BUS.CapNhatTrangThaiSo(baoCaoThang);
+                MessageBox.Show("Sổ đóng");
             }
 
             if (PhieuRutTien_BUS.LuuPhieuRutTien(phieuRutTien) && PhieuRutTien_BUS.CapNhatSoDu(phieuRutTien) && BaoCaoNgay_BUS.ThemChiTietNgay(baoCaoNgay))

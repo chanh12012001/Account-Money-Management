@@ -10,3 +10,9 @@ F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DTO\obj\Debug\DTO.csprojAssemblyR
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DTO\obj\Debug\cccc.dll
 F:\UIT\NhapMonCongNghePhanMem\QuanLySoTietKiem\DTO\obj\Debug\cccc.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\bin\Debug\cccc.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\bin\Debug\cccc.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\obj\Debug\cccc.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\DTO\obj\Debug\cccc.pdb

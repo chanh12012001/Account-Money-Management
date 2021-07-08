@@ -39,12 +39,14 @@ namespace QuanLySoTietKiem
                 }
             }          
 
+
+            if (danhSachSoTietKiem == null)
+            {
+                danhSachSoTietKiem = new List<SoTietKiem_DTO>();
+            }
             dgvDanhSachSoTietKiem.DataSource = danhSachSoTietKiem;
 
-            if (danhSachLoaiTietKiem == null)
-            {
-                return;
-            }
+            txtMaSoTietKiem.Text = XacDinhMaSoTietKiem();
 
             dgvDanhSachSoTietKiem.Columns["MaSoTietKiem"].HeaderText = "Mã Sổ TK";
             dgvDanhSachSoTietKiem.Columns["MaKhachHang"].HeaderText = "Khách hàng";

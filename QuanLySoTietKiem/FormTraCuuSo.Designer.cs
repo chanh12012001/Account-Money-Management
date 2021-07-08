@@ -35,6 +35,7 @@ namespace QuanLySoTietKiem
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbLoaiTietKiem = new System.Windows.Forms.ComboBox();
             this.cbMaSoTietKiem = new System.Windows.Forms.ComboBox();
             this.btnTraCuu = new Guna.UI.WinForms.GunaButton();
             this.gunaGroupBox1 = new Guna.UI.WinForms.GunaGroupBox();
@@ -47,9 +48,7 @@ namespace QuanLySoTietKiem
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.dgvDanhSachSoTietKiem = new Guna.UI.WinForms.GunaDataGridView();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
-            this.cbLoaiTietKiem = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.gunaGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachSoTietKiem)).BeginInit();
@@ -85,6 +84,15 @@ namespace QuanLySoTietKiem
             this.groupBox1.TabIndex = 41;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Điền thông tin muốn tra cứu";
+            // 
+            // cbLoaiTietKiem
+            // 
+            this.cbLoaiTietKiem.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbLoaiTietKiem.FormattingEnabled = true;
+            this.cbLoaiTietKiem.Location = new System.Drawing.Point(166, 154);
+            this.cbLoaiTietKiem.Name = "cbLoaiTietKiem";
+            this.cbLoaiTietKiem.Size = new System.Drawing.Size(159, 29);
+            this.cbLoaiTietKiem.TabIndex = 109;
             // 
             // cbMaSoTietKiem
             // 
@@ -254,8 +262,6 @@ namespace QuanLySoTietKiem
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvDanhSachSoTietKiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDanhSachSoTietKiem.ColumnHeadersHeight = 40;
-            this.dgvDanhSachSoTietKiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.STT});
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -268,6 +274,7 @@ namespace QuanLySoTietKiem
             this.dgvDanhSachSoTietKiem.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvDanhSachSoTietKiem.Location = new System.Drawing.Point(28, 380);
             this.dgvDanhSachSoTietKiem.Name = "dgvDanhSachSoTietKiem";
+            this.dgvDanhSachSoTietKiem.ReadOnly = true;
             this.dgvDanhSachSoTietKiem.RowHeadersVisible = false;
             this.dgvDanhSachSoTietKiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDanhSachSoTietKiem.Size = new System.Drawing.Size(635, 178);
@@ -286,7 +293,7 @@ namespace QuanLySoTietKiem
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.Height = 40;
-            this.dgvDanhSachSoTietKiem.ThemeStyle.ReadOnly = false;
+            this.dgvDanhSachSoTietKiem.ThemeStyle.ReadOnly = true;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -295,11 +302,6 @@ namespace QuanLySoTietKiem
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dgvDanhSachSoTietKiem.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dgvDanhSachSoTietKiem_RowsAdded);
-            // 
-            // STT
-            // 
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
             // 
             // label7
             // 
@@ -312,17 +314,9 @@ namespace QuanLySoTietKiem
             this.label7.TabIndex = 59;
             this.label7.Text = "Danh sách sổ tiết kiệm";
             // 
-            // cbLoaiTietKiem
-            // 
-            this.cbLoaiTietKiem.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbLoaiTietKiem.FormattingEnabled = true;
-            this.cbLoaiTietKiem.Location = new System.Drawing.Point(166, 154);
-            this.cbLoaiTietKiem.Name = "cbLoaiTietKiem";
-            this.cbLoaiTietKiem.Size = new System.Drawing.Size(159, 29);
-            this.cbLoaiTietKiem.TabIndex = 109;
-            // 
             // FormTraCuuSo
             // 
+            this.AcceptButton = this.btnTraCuu;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
@@ -360,7 +354,6 @@ namespace QuanLySoTietKiem
         private System.Windows.Forms.ComboBox cbMaSoTietKiem;
         private System.Windows.Forms.DateTimePicker dtpDenNgay;
         private System.Windows.Forms.DateTimePicker dtpTuNgay;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.ComboBox cbLoaiTietKiem;
     }
 }

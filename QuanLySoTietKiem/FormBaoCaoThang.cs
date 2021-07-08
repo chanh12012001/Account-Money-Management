@@ -31,9 +31,15 @@ namespace QuanLySoTietKiem
         {
             danhSach = BaoCaoThang_BUS.LoadBaoCaoThang();
 
-            if (danhSach == null) return;
+            if (danhSach == null)
+                //return;
+                danhSach = new List<BaoCaoThang_DTO>();
 
             dgvBaoCaoThang.DataSource = danhSach;
+
+            cbThang.Text = DateTime.Today.Month.ToString();
+            cbNam.Text = DateTime.Today.Year.ToString();
+
             dgvBaoCaoThang.Columns["MaChiTietThang"].Visible = false;
             dgvBaoCaoThang.Columns["MaLoaiTietKiem"].Visible = false;
             dgvBaoCaoThang.Columns["MaSoTietKiem"].Visible = false;
@@ -42,8 +48,6 @@ namespace QuanLySoTietKiem
             dgvBaoCaoThang.Columns["SoMo"].HeaderText = "Sổ Mở";
             dgvBaoCaoThang.Columns["SoDong"].HeaderText = "Sổ Đóng";
             dgvBaoCaoThang.Columns["ChenhLech"].HeaderText = "Chênh lệch";
-
-           
 
         }
 
@@ -71,7 +75,8 @@ namespace QuanLySoTietKiem
                 List<BaoCaoThang_DTO> ketQua = BaoCaoThang_BUS.TraCuuThang(cbThang.Text, cbNam.Text, maLoaiTietKiem);
                 if (ketQua == null)
                 {
-                    return;
+                    /*return;*/
+                    ketQua = new List<BaoCaoThang_DTO>();
                 }
                 dgvBaoCaoThang.DataSource = ketQua;
 
@@ -88,8 +93,14 @@ namespace QuanLySoTietKiem
                 lbSoDong.Text = sodong.ToString();
                 lbChenhLech.Text = chenhlech.ToString();
             }
+            else
+            {
+                MessageBox.Show("Nhập đầy đủ thông tin");
+            }
            
-        }
+        }       
+
+
         int count = 0;
         private void gunaButton2_Click(object sender, EventArgs e)
         {

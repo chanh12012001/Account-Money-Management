@@ -57,12 +57,13 @@ namespace QuanLySoTietKiem
         private void LoadSoTietKiem()
         {
             danhSachSoTietKiem = SoTietKiem_BUS.LoadSoTietKiem();
-            dgvDanhSachSoTietKiem.DataSource = danhSachSoTietKiem;
 
             if (danhSachSoTietKiem == null)
             {
-                return;
+                danhSachSoTietKiem = new List<SoTietKiem_DTO>();
             }
+            dgvDanhSachSoTietKiem.DataSource = danhSachSoTietKiem;
+
 
             dgvDanhSachSoTietKiem.Columns["MaSoTietKiem"].HeaderText = "Mã Sổ TK";
             dgvDanhSachSoTietKiem.Columns["MaLoaiTietKiem"].Visible = false;
