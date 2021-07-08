@@ -31,3 +31,14 @@ D:\NMCNPM\Account-Money-Management-master\BUS\obj\Debug\BUS.csproj.CoreCompileIn
 D:\NMCNPM\Account-Money-Management-master\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\NMCNPM\Account-Money-Management-master\BUS\obj\Debug\BUS.dll
 D:\NMCNPM\Account-Money-Management-master\BUS\obj\Debug\BUS.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\BUS.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\BUS.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\cccc.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\DAO.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\DAO.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\bin\Debug\cccc.pdb
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\obj\Debug\BUS.dll
+D:\NguyenNhutTan\Nhập môn công nghệ phần mềm\Account-Money-Management\BUS\obj\Debug\BUS.pdb

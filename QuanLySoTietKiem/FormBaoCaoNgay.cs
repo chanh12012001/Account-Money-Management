@@ -27,12 +27,14 @@ namespace QuanLySoTietKiem
        List<BaoCaoNgay_DTO> danhSach;
         private void LoadBaoCaoNgay()
         {
-            danhSach = BaoCaoNgay_BUS.LoadBaoCaoNgay();
-            if(danhSach == null)
-            {
-                return;
-            }
-            dgvBaoCaoNgay.DataSource = danhSach;
+            //danhSach = BaoCaoNgay_BUS.LoadBaoCaoNgay();
+            //if(danhSach == null)
+            //{
+            //    //return;
+            //    danhSach = new List<BaoCaoNgay_DTO>();
+            //}
+            //dgvBaoCaoNgay.DataSource = danhSach;
+            loadBaoCao();
 
             dgvBaoCaoNgay.Columns["MaLoaiTietKiem"].HeaderText = "Loại Tiết Kiệm";
             dgvBaoCaoNgay.Columns["TongThu"].HeaderText = "Tổng Thu";
@@ -45,9 +47,15 @@ namespace QuanLySoTietKiem
 
         private void btnTraCuu_Click(object sender, EventArgs e)
         {
-            List<BaoCaoNgay_DTO> ketQua = BaoCaoNgay_BUS.TraCuuNgay(DateTime.Parse(dtpBaoCaoNgay.Text));
+            loadBaoCao();
+        }
+
+        private void loadBaoCao()
+        {
+            List<BaoCaoNgay_DTO> ketQua = BaoCaoNgay_BUS.TraCuuNgay(DateTime.Parse(dtpBaoCaoNgay.Value.ToString()));
             if (ketQua == null)
-                return;
+                //return;
+                ketQua = new List<BaoCaoNgay_DTO>();
             dgvBaoCaoNgay.DataSource = ketQua;
 
             int tongthu = 0;
@@ -63,6 +71,7 @@ namespace QuanLySoTietKiem
             lbTongChi.Text = tongchi.ToString();
             lbChenhLech.Text = chenhlech.ToString();
         }
+
         int count = 0;
         private void btnXuatPDF_Click(object sender, EventArgs e)
         {

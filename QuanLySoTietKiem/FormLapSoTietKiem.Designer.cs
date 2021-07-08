@@ -30,9 +30,9 @@ namespace QuanLySoTietKiem
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLapSoTietKiem));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpNgayMoSo = new System.Windows.Forms.DateTimePicker();
             this.cbMaKhachHang = new System.Windows.Forms.ComboBox();
@@ -83,11 +83,11 @@ namespace QuanLySoTietKiem
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(23, 82);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.groupBox1.Location = new System.Drawing.Point(17, 67);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.groupBox1.Size = new System.Drawing.Size(877, 354);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(658, 288);
             this.groupBox1.TabIndex = 55;
             this.groupBox1.TabStop = false;
             // 
@@ -97,20 +97,18 @@ namespace QuanLySoTietKiem
             this.dtpNgayMoSo.CustomFormat = "dd-MM-yyyy";
             this.dtpNgayMoSo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayMoSo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayMoSo.Location = new System.Drawing.Point(639, 214);
-            this.dtpNgayMoSo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpNgayMoSo.Location = new System.Drawing.Point(479, 174);
             this.dtpNgayMoSo.Name = "dtpNgayMoSo";
-            this.dtpNgayMoSo.Size = new System.Drawing.Size(211, 34);
+            this.dtpNgayMoSo.Size = new System.Drawing.Size(159, 29);
             this.dtpNgayMoSo.TabIndex = 106;
             // 
             // cbMaKhachHang
             // 
             this.cbMaKhachHang.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaKhachHang.FormattingEnabled = true;
-            this.cbMaKhachHang.Location = new System.Drawing.Point(185, 95);
-            this.cbMaKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbMaKhachHang.Location = new System.Drawing.Point(139, 77);
             this.cbMaKhachHang.Name = "cbMaKhachHang";
-            this.cbMaKhachHang.Size = new System.Drawing.Size(160, 38);
+            this.cbMaKhachHang.Size = new System.Drawing.Size(121, 31);
             this.cbMaKhachHang.TabIndex = 104;
             this.cbMaKhachHang.SelectedValueChanged += new System.EventHandler(this.cbMaKhachHang_SelectedValueChanged);
             this.cbMaKhachHang.TextChanged += new System.EventHandler(this.cbMaKhachHang_TextChanged);
@@ -127,13 +125,12 @@ namespace QuanLySoTietKiem
             this.cbLoaiTietKiem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLoaiTietKiem.ForeColor = System.Drawing.Color.Black;
             this.cbLoaiTietKiem.FormattingEnabled = true;
-            this.cbLoaiTietKiem.Location = new System.Drawing.Point(639, 151);
-            this.cbLoaiTietKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbLoaiTietKiem.Location = new System.Drawing.Point(479, 123);
             this.cbLoaiTietKiem.Name = "cbLoaiTietKiem";
             this.cbLoaiTietKiem.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.cbLoaiTietKiem.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cbLoaiTietKiem.Radius = 10;
-            this.cbLoaiTietKiem.Size = new System.Drawing.Size(211, 35);
+            this.cbLoaiTietKiem.Size = new System.Drawing.Size(159, 30);
             this.cbLoaiTietKiem.TabIndex = 103;
             this.cbLoaiTietKiem.SelectedIndexChanged += new System.EventHandler(this.cbLoaiTietKiem_SelectedIndexChanged);
             // 
@@ -150,8 +147,7 @@ namespace QuanLySoTietKiem
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton4.Image")));
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(227, 299);
-            this.gunaButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaButton4.Location = new System.Drawing.Point(170, 243);
             this.gunaButton4.Name = "gunaButton4";
             this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Bisque;
@@ -159,7 +155,7 @@ namespace QuanLySoTietKiem
             this.gunaButton4.OnHoverImage = null;
             this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton4.Radius = 13;
-            this.gunaButton4.Size = new System.Drawing.Size(139, 32);
+            this.gunaButton4.Size = new System.Drawing.Size(104, 26);
             this.gunaButton4.TabIndex = 79;
             this.gunaButton4.Text = "      Tìm kiếm";
             this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -175,13 +171,12 @@ namespace QuanLySoTietKiem
             this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(13, 299);
-            this.gunaTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gunaTextBox1.Location = new System.Drawing.Point(10, 243);
             this.gunaTextBox1.Name = "gunaTextBox1";
             this.gunaTextBox1.PasswordChar = '\0';
             this.gunaTextBox1.Radius = 10;
             this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(203, 37);
+            this.gunaTextBox1.Size = new System.Drawing.Size(152, 30);
             this.gunaTextBox1.TabIndex = 78;
             // 
             // btnThemKhachHang
@@ -197,8 +192,7 @@ namespace QuanLySoTietKiem
             this.btnThemKhachHang.ForeColor = System.Drawing.Color.White;
             this.btnThemKhachHang.Image = null;
             this.btnThemKhachHang.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnThemKhachHang.Location = new System.Drawing.Point(355, 95);
-            this.btnThemKhachHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemKhachHang.Location = new System.Drawing.Point(266, 77);
             this.btnThemKhachHang.Name = "btnThemKhachHang";
             this.btnThemKhachHang.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnThemKhachHang.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -206,7 +200,7 @@ namespace QuanLySoTietKiem
             this.btnThemKhachHang.OnHoverImage = null;
             this.btnThemKhachHang.OnPressedColor = System.Drawing.Color.Black;
             this.btnThemKhachHang.Radius = 15;
-            this.btnThemKhachHang.Size = new System.Drawing.Size(45, 36);
+            this.btnThemKhachHang.Size = new System.Drawing.Size(34, 29);
             this.btnThemKhachHang.TabIndex = 76;
             this.btnThemKhachHang.Text = "+";
             this.btnThemKhachHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -225,8 +219,7 @@ namespace QuanLySoTietKiem
             this.btnMoSo.ForeColor = System.Drawing.Color.White;
             this.btnMoSo.Image = ((System.Drawing.Image)(resources.GetObject("btnMoSo.Image")));
             this.btnMoSo.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnMoSo.Location = new System.Drawing.Point(685, 293);
-            this.btnMoSo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMoSo.Location = new System.Drawing.Point(514, 238);
             this.btnMoSo.Name = "btnMoSo";
             this.btnMoSo.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnMoSo.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -234,7 +227,7 @@ namespace QuanLySoTietKiem
             this.btnMoSo.OnHoverImage = null;
             this.btnMoSo.OnPressedColor = System.Drawing.Color.Black;
             this.btnMoSo.Radius = 15;
-            this.btnMoSo.Size = new System.Drawing.Size(165, 43);
+            this.btnMoSo.Size = new System.Drawing.Size(124, 35);
             this.btnMoSo.TabIndex = 57;
             this.btnMoSo.Text = "   Mở sổ";
             this.btnMoSo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -251,14 +244,13 @@ namespace QuanLySoTietKiem
             this.txtHoTenKH.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtHoTenKH.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtHoTenKH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHoTenKH.Location = new System.Drawing.Point(185, 151);
-            this.txtHoTenKH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHoTenKH.Location = new System.Drawing.Point(139, 123);
             this.txtHoTenKH.Name = "txtHoTenKH";
             this.txtHoTenKH.PasswordChar = '\0';
             this.txtHoTenKH.Radius = 10;
             this.txtHoTenKH.ReadOnly = true;
             this.txtHoTenKH.SelectedText = "";
-            this.txtHoTenKH.Size = new System.Drawing.Size(212, 46);
+            this.txtHoTenKH.Size = new System.Drawing.Size(159, 37);
             this.txtHoTenKH.TabIndex = 73;
             // 
             // txtCMND
@@ -272,14 +264,13 @@ namespace QuanLySoTietKiem
             this.txtCMND.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtCMND.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtCMND.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCMND.Location = new System.Drawing.Point(185, 213);
-            this.txtCMND.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCMND.Location = new System.Drawing.Point(139, 173);
             this.txtCMND.Name = "txtCMND";
             this.txtCMND.PasswordChar = '\0';
             this.txtCMND.Radius = 10;
             this.txtCMND.ReadOnly = true;
             this.txtCMND.SelectedText = "";
-            this.txtCMND.Size = new System.Drawing.Size(212, 46);
+            this.txtCMND.Size = new System.Drawing.Size(159, 37);
             this.txtCMND.TabIndex = 74;
             // 
             // txtSoTienGui
@@ -293,13 +284,12 @@ namespace QuanLySoTietKiem
             this.txtSoTienGui.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtSoTienGui.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtSoTienGui.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienGui.Location = new System.Drawing.Point(639, 91);
-            this.txtSoTienGui.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienGui.Location = new System.Drawing.Point(479, 74);
             this.txtSoTienGui.Name = "txtSoTienGui";
             this.txtSoTienGui.PasswordChar = '\0';
             this.txtSoTienGui.Radius = 10;
             this.txtSoTienGui.SelectedText = "";
-            this.txtSoTienGui.Size = new System.Drawing.Size(212, 46);
+            this.txtSoTienGui.Size = new System.Drawing.Size(159, 37);
             this.txtSoTienGui.TabIndex = 72;
             this.txtSoTienGui.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoTienGui_KeyPress);
             // 
@@ -307,10 +297,9 @@ namespace QuanLySoTietKiem
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(456, 43);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(342, 35);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 24);
+            this.label7.Size = new System.Drawing.Size(57, 18);
             this.label7.TabIndex = 65;
             this.label7.Text = "Địa chỉ:";
             // 
@@ -318,10 +307,9 @@ namespace QuanLySoTietKiem
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(456, 219);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(342, 178);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 24);
+            this.label9.Size = new System.Drawing.Size(93, 18);
             this.label9.TabIndex = 71;
             this.label9.Text = "Ngày mở sổ:";
             // 
@@ -329,10 +317,9 @@ namespace QuanLySoTietKiem
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 43);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(6, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 24);
+            this.label2.Size = new System.Drawing.Size(113, 18);
             this.label2.TabIndex = 57;
             this.label2.Text = "Mã sổ tiết kiệm:";
             // 
@@ -340,10 +327,9 @@ namespace QuanLySoTietKiem
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(456, 159);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(342, 129);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(123, 24);
+            this.label8.Size = new System.Drawing.Size(99, 18);
             this.label8.TabIndex = 70;
             this.label8.Text = "Loại tiết kiệm:";
             // 
@@ -358,24 +344,22 @@ namespace QuanLySoTietKiem
             this.txtMaSoTietKiem.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtMaSoTietKiem.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtMaSoTietKiem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaSoTietKiem.Location = new System.Drawing.Point(185, 34);
-            this.txtMaSoTietKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaSoTietKiem.Location = new System.Drawing.Point(139, 28);
             this.txtMaSoTietKiem.Name = "txtMaSoTietKiem";
             this.txtMaSoTietKiem.PasswordChar = '\0';
             this.txtMaSoTietKiem.Radius = 10;
             this.txtMaSoTietKiem.ReadOnly = true;
             this.txtMaSoTietKiem.SelectedText = "";
-            this.txtMaSoTietKiem.Size = new System.Drawing.Size(212, 46);
+            this.txtMaSoTietKiem.Size = new System.Drawing.Size(159, 37);
             this.txtMaSoTietKiem.TabIndex = 58;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 101);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(5, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 24);
+            this.label3.Size = new System.Drawing.Size(90, 18);
             this.label3.TabIndex = 59;
             this.label3.Text = "Khách hàng:";
             // 
@@ -383,10 +367,9 @@ namespace QuanLySoTietKiem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(456, 98);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(342, 80);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 24);
+            this.label6.Size = new System.Drawing.Size(81, 18);
             this.label6.TabIndex = 67;
             this.label6.Text = "Số tiền gửi:";
             // 
@@ -401,24 +384,22 @@ namespace QuanLySoTietKiem
             this.txtDiaChi.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtDiaChi.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.Location = new System.Drawing.Point(639, 34);
-            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiaChi.Location = new System.Drawing.Point(479, 28);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.PasswordChar = '\0';
             this.txtDiaChi.Radius = 10;
             this.txtDiaChi.ReadOnly = true;
             this.txtDiaChi.SelectedText = "";
-            this.txtDiaChi.Size = new System.Drawing.Size(212, 46);
+            this.txtDiaChi.Size = new System.Drawing.Size(159, 37);
             this.txtDiaChi.TabIndex = 66;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(7, 158);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(5, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 24);
+            this.label4.Size = new System.Drawing.Size(117, 18);
             this.label4.TabIndex = 62;
             this.label4.Text = "Tên khách hàng:";
             // 
@@ -426,10 +407,9 @@ namespace QuanLySoTietKiem
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(7, 225);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(5, 183);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 24);
+            this.label5.Size = new System.Drawing.Size(58, 18);
             this.label5.TabIndex = 64;
             this.label5.Text = "CMND:";
             // 
@@ -438,48 +418,47 @@ namespace QuanLySoTietKiem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(331, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(248, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 31);
+            this.label1.Size = new System.Drawing.Size(199, 24);
             this.label1.TabIndex = 56;
             this.label1.Text = "LẬP SỔ TIẾT KIỆM";
             // 
             // dgvDanhSachSoTietKiem
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvDanhSachSoTietKiem.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.dgvDanhSachSoTietKiem.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvDanhSachSoTietKiem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDanhSachSoTietKiem.BackgroundColor = System.Drawing.Color.White;
             this.dgvDanhSachSoTietKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDanhSachSoTietKiem.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvDanhSachSoTietKiem.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDanhSachSoTietKiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDanhSachSoTietKiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDanhSachSoTietKiem.ColumnHeadersHeight = 40;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSachSoTietKiem.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSachSoTietKiem.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvDanhSachSoTietKiem.EnableHeadersVisualStyles = false;
             this.dgvDanhSachSoTietKiem.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvDanhSachSoTietKiem.Location = new System.Drawing.Point(23, 447);
-            this.dgvDanhSachSoTietKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDanhSachSoTietKiem.Location = new System.Drawing.Point(17, 363);
             this.dgvDanhSachSoTietKiem.Name = "dgvDanhSachSoTietKiem";
+            this.dgvDanhSachSoTietKiem.ReadOnly = true;
             this.dgvDanhSachSoTietKiem.RowHeadersVisible = false;
             this.dgvDanhSachSoTietKiem.RowHeadersWidth = 51;
             this.dgvDanhSachSoTietKiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDanhSachSoTietKiem.Size = new System.Drawing.Size(877, 233);
+            this.dgvDanhSachSoTietKiem.Size = new System.Drawing.Size(658, 189);
             this.dgvDanhSachSoTietKiem.TabIndex = 57;
             this.dgvDanhSachSoTietKiem.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.dgvDanhSachSoTietKiem.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -495,7 +474,7 @@ namespace QuanLySoTietKiem
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dgvDanhSachSoTietKiem.ThemeStyle.HeaderStyle.Height = 40;
-            this.dgvDanhSachSoTietKiem.ThemeStyle.ReadOnly = false;
+            this.dgvDanhSachSoTietKiem.ThemeStyle.ReadOnly = true;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvDanhSachSoTietKiem.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -507,14 +486,14 @@ namespace QuanLySoTietKiem
             // 
             // FormLapSoTietKiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AcceptButton = this.btnMoSo;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(921, 690);
+            this.ClientSize = new System.Drawing.Size(691, 561);
             this.Controls.Add(this.dgvDanhSachSoTietKiem);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLapSoTietKiem";
             this.Text = "FormLapSoTietKiem";
             this.groupBox1.ResumeLayout(false);

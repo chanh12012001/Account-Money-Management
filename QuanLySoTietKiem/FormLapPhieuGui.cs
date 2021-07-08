@@ -42,12 +42,15 @@ namespace QuanLySoTietKiem
                 }
             }
 
-            dgvDanhSachPhieuGuiTien.DataSource = danhSachPhieuGuiTien;
 
             if (danhSachPhieuGuiTien == null)
             {
-                return;
+                //return;
+                danhSachPhieuGuiTien = new List<PhieuGuiTien_DTO>();
             }
+            dgvDanhSachPhieuGuiTien.DataSource = danhSachPhieuGuiTien;
+
+            txtMaPhieuGui.Text = XacDinhMaPhieuGui();
 
             dgvDanhSachPhieuGuiTien.Columns["MaPhieuGui"].HeaderText = "Mã Phiếu Gửi";
             dgvDanhSachPhieuGuiTien.Columns["MaSoTietKiem"].HeaderText = "Mã Sổ Tiết Kiệm";
@@ -159,6 +162,14 @@ namespace QuanLySoTietKiem
                 MessageBox.Show("Vui Lòng Nhập Đầy Đủ Thông Tin ...");
                 return;
             }
+
+            // Kiểm tra loại tiết kiệm
+            if (SoTietKiem_DAO.LayMaLoaiTietKiemTheoSTK(cbMaSoTietKiem.Text) != "LTK001")
+            {
+                MessageBox.Show("Chỉ được gửi với sổ tiết kiệm không kỳ hạn");
+                return;
+            }
+
             PhieuGuiTien_DTO phieuGuiTien = new PhieuGuiTien_DTO();
             BaoCaoNgay_DTO chiTietBaoCao = new BaoCaoNgay_DTO();
 

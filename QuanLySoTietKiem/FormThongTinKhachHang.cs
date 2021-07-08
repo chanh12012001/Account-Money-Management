@@ -26,7 +26,6 @@ namespace QuanLySoTietKiem
         {
             ID.Clear();
             danhSachKhachHang = KhachHang_BUS.LoadKhachHang();
-            dgvDanhSachKhachHang.DataSource = danhSachKhachHang;
 
             if (danhSachKhachHang != null)
             {
@@ -37,8 +36,12 @@ namespace QuanLySoTietKiem
             } 
             else
             {
-                return;
+                danhSachKhachHang = new List<KhachHang_DTO>();
             }
+
+            dgvDanhSachKhachHang.DataSource = danhSachKhachHang;
+
+            txtMaKhachHang.Text = XacDinhMaKhachHang();
 
             dgvDanhSachKhachHang.Columns["MaKhachHang"].HeaderText = "Mã KH";
             dgvDanhSachKhachHang.Columns["HoTen"].HeaderText = "Họ & Tên";
